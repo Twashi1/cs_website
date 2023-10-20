@@ -1,0 +1,30 @@
+html {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+sub {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*
+From:
+https://stackoverflow.com/questions/46802769/style-bullet-list-with-arrows
+*/
+li::before {
+    content: '→ ';
+}
+
+.headerDiv {
+    background-color: #20a0ff;
+}
