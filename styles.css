@@ -4,6 +4,28 @@ html {
     background-color: lightgray;
 }
 
+/*
+From:
+https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity
+*/
+.globalBackground {
+    overflow: hidden;
+    position: relative;
+}
+
+.globalBackgroundImg {
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.globalBackgroundContent {
+    position: relative;
+}
+
 h1 {
     font-size: 2.5rem;
 }
@@ -26,5 +48,5 @@ li::before {
 }
 
 .headerDiv {
-    background-color: #20a0ff;
+    background-color: darkgray;
 }
